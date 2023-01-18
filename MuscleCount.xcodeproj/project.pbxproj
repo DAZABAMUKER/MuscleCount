@@ -1,0 +1,1021 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03D04FD5297793B6000519EF /* MuscleCountApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D04FD4297793B6000519EF /* MuscleCountApp.swift */; };
+		03D04FD7297793B6000519EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D04FD6297793B6000519EF /* ContentView.swift */; };
+		03D04FD9297793B8000519EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D04FD8297793B8000519EF /* Assets.xcassets */; };
+		03D04FDC297793B8000519EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D04FDB297793B8000519EF /* Preview Assets.xcassets */; };
+		03D04FE6297793B8000519EF /* MuscleCountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D04FE5297793B8000519EF /* MuscleCountTests.swift */; };
+		03D04FF0297793B8000519EF /* MuscleCountUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D04FEF297793B8000519EF /* MuscleCountUITests.swift */; };
+		03D04FF2297793B8000519EF /* MuscleCountUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D04FF1297793B8000519EF /* MuscleCountUITestsLaunchTests.swift */; };
+		03D04FF8297793B8000519EF /* MuscleCount Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 03D04FF7297793B8000519EF /* MuscleCount Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		03D04FFD297793B8000519EF /* MuscleCountApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D04FFC297793B8000519EF /* MuscleCountApp.swift */; };
+		03D04FFF297793B8000519EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D04FFE297793B8000519EF /* ContentView.swift */; };
+		03D05001297793B9000519EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D05000297793B9000519EF /* Assets.xcassets */; };
+		03D05004297793B9000519EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D05003297793B9000519EF /* Preview Assets.xcassets */; };
+		03D0500E297793B9000519EF /* MuscleCount_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D0500D297793B9000519EF /* MuscleCount_Watch_AppTests.swift */; };
+		03D05018297793B9000519EF /* MuscleCount_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D05017297793B9000519EF /* MuscleCount_Watch_AppUITests.swift */; };
+		03D0501A297793B9000519EF /* MuscleCount_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D05019297793B9000519EF /* MuscleCount_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03D04FE2297793B8000519EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03D04FC9297793B6000519EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03D04FD0297793B6000519EF;
+			remoteInfo = MuscleCount;
+		};
+		03D04FEC297793B8000519EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03D04FC9297793B6000519EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03D04FD0297793B6000519EF;
+			remoteInfo = MuscleCount;
+		};
+		03D04FF9297793B8000519EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03D04FC9297793B6000519EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03D04FF6297793B8000519EF;
+			remoteInfo = "MuscleCount Watch App";
+		};
+		03D0500A297793B9000519EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03D04FC9297793B6000519EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03D04FF6297793B8000519EF;
+			remoteInfo = "MuscleCount Watch App";
+		};
+		03D05014297793B9000519EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03D04FC9297793B6000519EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03D04FF6297793B8000519EF;
+			remoteInfo = "MuscleCount Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03D05020297793B9000519EF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				03D04FF8297793B8000519EF /* MuscleCount Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03D04FD1297793B6000519EF /* MuscleCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuscleCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D04FD4297793B6000519EF /* MuscleCountApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleCountApp.swift; sourceTree = "<group>"; };
+		03D04FD6297793B6000519EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		03D04FD8297793B8000519EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03D04FDB297793B8000519EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		03D04FE1297793B8000519EF /* MuscleCountTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuscleCountTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D04FE5297793B8000519EF /* MuscleCountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleCountTests.swift; sourceTree = "<group>"; };
+		03D04FEB297793B8000519EF /* MuscleCountUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuscleCountUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D04FEF297793B8000519EF /* MuscleCountUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleCountUITests.swift; sourceTree = "<group>"; };
+		03D04FF1297793B8000519EF /* MuscleCountUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleCountUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		03D04FF7297793B8000519EF /* MuscleCount Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MuscleCount Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D04FFC297793B8000519EF /* MuscleCountApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleCountApp.swift; sourceTree = "<group>"; };
+		03D04FFE297793B8000519EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		03D05000297793B9000519EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03D05003297793B9000519EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		03D05009297793B9000519EF /* MuscleCount Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MuscleCount Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D0500D297793B9000519EF /* MuscleCount_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleCount_Watch_AppTests.swift; sourceTree = "<group>"; };
+		03D05013297793B9000519EF /* MuscleCount Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MuscleCount Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D05017297793B9000519EF /* MuscleCount_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleCount_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		03D05019297793B9000519EF /* MuscleCount_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleCount_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03D04FCE297793B6000519EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D04FDE297793B8000519EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D04FE8297793B8000519EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D04FF4297793B8000519EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D05006297793B9000519EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D05010297793B9000519EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03D04FC8297793B6000519EF = {
+			isa = PBXGroup;
+			children = (
+				03D04FD3297793B6000519EF /* MuscleCount */,
+				03D04FE4297793B8000519EF /* MuscleCountTests */,
+				03D04FEE297793B8000519EF /* MuscleCountUITests */,
+				03D04FFB297793B8000519EF /* MuscleCount Watch App */,
+				03D0500C297793B9000519EF /* MuscleCount Watch AppTests */,
+				03D05016297793B9000519EF /* MuscleCount Watch AppUITests */,
+				03D04FD2297793B6000519EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03D04FD2297793B6000519EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03D04FD1297793B6000519EF /* MuscleCount.app */,
+				03D04FE1297793B8000519EF /* MuscleCountTests.xctest */,
+				03D04FEB297793B8000519EF /* MuscleCountUITests.xctest */,
+				03D04FF7297793B8000519EF /* MuscleCount Watch App.app */,
+				03D05009297793B9000519EF /* MuscleCount Watch AppTests.xctest */,
+				03D05013297793B9000519EF /* MuscleCount Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03D04FD3297793B6000519EF /* MuscleCount */ = {
+			isa = PBXGroup;
+			children = (
+				03D04FD4297793B6000519EF /* MuscleCountApp.swift */,
+				03D04FD6297793B6000519EF /* ContentView.swift */,
+				03D04FD8297793B8000519EF /* Assets.xcassets */,
+				03D04FDA297793B8000519EF /* Preview Content */,
+			);
+			path = MuscleCount;
+			sourceTree = "<group>";
+		};
+		03D04FDA297793B8000519EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				03D04FDB297793B8000519EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		03D04FE4297793B8000519EF /* MuscleCountTests */ = {
+			isa = PBXGroup;
+			children = (
+				03D04FE5297793B8000519EF /* MuscleCountTests.swift */,
+			);
+			path = MuscleCountTests;
+			sourceTree = "<group>";
+		};
+		03D04FEE297793B8000519EF /* MuscleCountUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03D04FEF297793B8000519EF /* MuscleCountUITests.swift */,
+				03D04FF1297793B8000519EF /* MuscleCountUITestsLaunchTests.swift */,
+			);
+			path = MuscleCountUITests;
+			sourceTree = "<group>";
+		};
+		03D04FFB297793B8000519EF /* MuscleCount Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				03D04FFC297793B8000519EF /* MuscleCountApp.swift */,
+				03D04FFE297793B8000519EF /* ContentView.swift */,
+				03D05000297793B9000519EF /* Assets.xcassets */,
+				03D05002297793B9000519EF /* Preview Content */,
+			);
+			path = "MuscleCount Watch App";
+			sourceTree = "<group>";
+		};
+		03D05002297793B9000519EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				03D05003297793B9000519EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		03D0500C297793B9000519EF /* MuscleCount Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				03D0500D297793B9000519EF /* MuscleCount_Watch_AppTests.swift */,
+			);
+			path = "MuscleCount Watch AppTests";
+			sourceTree = "<group>";
+		};
+		03D05016297793B9000519EF /* MuscleCount Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03D05017297793B9000519EF /* MuscleCount_Watch_AppUITests.swift */,
+				03D05019297793B9000519EF /* MuscleCount_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "MuscleCount Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03D04FD0297793B6000519EF /* MuscleCount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D05021297793B9000519EF /* Build configuration list for PBXNativeTarget "MuscleCount" */;
+			buildPhases = (
+				03D04FCD297793B6000519EF /* Sources */,
+				03D04FCE297793B6000519EF /* Frameworks */,
+				03D04FCF297793B6000519EF /* Resources */,
+				03D05020297793B9000519EF /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03D04FFA297793B8000519EF /* PBXTargetDependency */,
+			);
+			name = MuscleCount;
+			productName = MuscleCount;
+			productReference = 03D04FD1297793B6000519EF /* MuscleCount.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03D04FE0297793B8000519EF /* MuscleCountTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D05024297793B9000519EF /* Build configuration list for PBXNativeTarget "MuscleCountTests" */;
+			buildPhases = (
+				03D04FDD297793B8000519EF /* Sources */,
+				03D04FDE297793B8000519EF /* Frameworks */,
+				03D04FDF297793B8000519EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03D04FE3297793B8000519EF /* PBXTargetDependency */,
+			);
+			name = MuscleCountTests;
+			productName = MuscleCountTests;
+			productReference = 03D04FE1297793B8000519EF /* MuscleCountTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03D04FEA297793B8000519EF /* MuscleCountUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D05027297793B9000519EF /* Build configuration list for PBXNativeTarget "MuscleCountUITests" */;
+			buildPhases = (
+				03D04FE7297793B8000519EF /* Sources */,
+				03D04FE8297793B8000519EF /* Frameworks */,
+				03D04FE9297793B8000519EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03D04FED297793B8000519EF /* PBXTargetDependency */,
+			);
+			name = MuscleCountUITests;
+			productName = MuscleCountUITests;
+			productReference = 03D04FEB297793B8000519EF /* MuscleCountUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		03D04FF6297793B8000519EF /* MuscleCount Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D0501D297793B9000519EF /* Build configuration list for PBXNativeTarget "MuscleCount Watch App" */;
+			buildPhases = (
+				03D04FF3297793B8000519EF /* Sources */,
+				03D04FF4297793B8000519EF /* Frameworks */,
+				03D04FF5297793B8000519EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MuscleCount Watch App";
+			productName = "MuscleCount Watch App";
+			productReference = 03D04FF7297793B8000519EF /* MuscleCount Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03D05008297793B9000519EF /* MuscleCount Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D0502A297793B9000519EF /* Build configuration list for PBXNativeTarget "MuscleCount Watch AppTests" */;
+			buildPhases = (
+				03D05005297793B9000519EF /* Sources */,
+				03D05006297793B9000519EF /* Frameworks */,
+				03D05007297793B9000519EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03D0500B297793B9000519EF /* PBXTargetDependency */,
+			);
+			name = "MuscleCount Watch AppTests";
+			productName = "MuscleCount Watch AppTests";
+			productReference = 03D05009297793B9000519EF /* MuscleCount Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03D05012297793B9000519EF /* MuscleCount Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D0502D297793B9000519EF /* Build configuration list for PBXNativeTarget "MuscleCount Watch AppUITests" */;
+			buildPhases = (
+				03D0500F297793B9000519EF /* Sources */,
+				03D05010297793B9000519EF /* Frameworks */,
+				03D05011297793B9000519EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03D05015297793B9000519EF /* PBXTargetDependency */,
+			);
+			name = "MuscleCount Watch AppUITests";
+			productName = "MuscleCount Watch AppUITests";
+			productReference = 03D05013297793B9000519EF /* MuscleCount Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03D04FC9297793B6000519EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					03D04FD0297793B6000519EF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					03D04FE0297793B8000519EF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 03D04FD0297793B6000519EF;
+					};
+					03D04FEA297793B8000519EF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 03D04FD0297793B6000519EF;
+					};
+					03D04FF6297793B8000519EF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					03D05008297793B9000519EF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 03D04FF6297793B8000519EF;
+					};
+					03D05012297793B9000519EF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 03D04FF6297793B8000519EF;
+					};
+				};
+			};
+			buildConfigurationList = 03D04FCC297793B6000519EF /* Build configuration list for PBXProject "MuscleCount" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03D04FC8297793B6000519EF;
+			productRefGroup = 03D04FD2297793B6000519EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03D04FD0297793B6000519EF /* MuscleCount */,
+				03D04FE0297793B8000519EF /* MuscleCountTests */,
+				03D04FEA297793B8000519EF /* MuscleCountUITests */,
+				03D04FF6297793B8000519EF /* MuscleCount Watch App */,
+				03D05008297793B9000519EF /* MuscleCount Watch AppTests */,
+				03D05012297793B9000519EF /* MuscleCount Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03D04FCF297793B6000519EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D04FDC297793B8000519EF /* Preview Assets.xcassets in Resources */,
+				03D04FD9297793B8000519EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D04FDF297793B8000519EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D04FE9297793B8000519EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D04FF5297793B8000519EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D05004297793B9000519EF /* Preview Assets.xcassets in Resources */,
+				03D05001297793B9000519EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D05007297793B9000519EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D05011297793B9000519EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03D04FCD297793B6000519EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D04FD7297793B6000519EF /* ContentView.swift in Sources */,
+				03D04FD5297793B6000519EF /* MuscleCountApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D04FDD297793B8000519EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D04FE6297793B8000519EF /* MuscleCountTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D04FE7297793B8000519EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D04FF0297793B8000519EF /* MuscleCountUITests.swift in Sources */,
+				03D04FF2297793B8000519EF /* MuscleCountUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D04FF3297793B8000519EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D04FFF297793B8000519EF /* ContentView.swift in Sources */,
+				03D04FFD297793B8000519EF /* MuscleCountApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D05005297793B9000519EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D0500E297793B9000519EF /* MuscleCount_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D0500F297793B9000519EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D05018297793B9000519EF /* MuscleCount_Watch_AppUITests.swift in Sources */,
+				03D0501A297793B9000519EF /* MuscleCount_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03D04FE3297793B8000519EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03D04FD0297793B6000519EF /* MuscleCount */;
+			targetProxy = 03D04FE2297793B8000519EF /* PBXContainerItemProxy */;
+		};
+		03D04FED297793B8000519EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03D04FD0297793B6000519EF /* MuscleCount */;
+			targetProxy = 03D04FEC297793B8000519EF /* PBXContainerItemProxy */;
+		};
+		03D04FFA297793B8000519EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03D04FF6297793B8000519EF /* MuscleCount Watch App */;
+			targetProxy = 03D04FF9297793B8000519EF /* PBXContainerItemProxy */;
+		};
+		03D0500B297793B9000519EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03D04FF6297793B8000519EF /* MuscleCount Watch App */;
+			targetProxy = 03D0500A297793B9000519EF /* PBXContainerItemProxy */;
+		};
+		03D05015297793B9000519EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03D04FF6297793B8000519EF /* MuscleCount Watch App */;
+			targetProxy = 03D05014297793B9000519EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03D0501B297793B9000519EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03D0501C297793B9000519EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		03D0501E297793B9000519EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MuscleCount Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = CRJ3674QVG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MuscleCount;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.dazabamuker.MuscleCount;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dazabamuker.MuscleCount.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		03D0501F297793B9000519EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MuscleCount Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = CRJ3674QVG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MuscleCount;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.dazabamuker.MuscleCount;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dazabamuker.MuscleCount.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		03D05022297793B9000519EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MuscleCount/Preview Content\"";
+				DEVELOPMENT_TEAM = CRJ3674QVG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MuscleCount;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dazabamuker.MuscleCount;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03D05023297793B9000519EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MuscleCount/Preview Content\"";
+				DEVELOPMENT_TEAM = CRJ3674QVG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MuscleCount;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dazabamuker.MuscleCount;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03D05025297793B9000519EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CRJ3674QVG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dazabamuker.MuscleCountTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuscleCount.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MuscleCount";
+			};
+			name = Debug;
+		};
+		03D05026297793B9000519EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CRJ3674QVG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dazabamuker.MuscleCountTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuscleCount.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MuscleCount";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03D05028297793B9000519EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CRJ3674QVG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dazabamuker.MuscleCountUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MuscleCount;
+			};
+			name = Debug;
+		};
+		03D05029297793B9000519EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CRJ3674QVG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dazabamuker.MuscleCountUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MuscleCount;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03D0502B297793B9000519EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CRJ3674QVG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dazabamuker.MuscleCount-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuscleCount Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MuscleCount Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		03D0502C297793B9000519EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CRJ3674QVG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dazabamuker.MuscleCount-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuscleCount Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MuscleCount Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		03D0502E297793B9000519EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CRJ3674QVG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dazabamuker.MuscleCount-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "MuscleCount Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		03D0502F297793B9000519EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CRJ3674QVG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dazabamuker.MuscleCount-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "MuscleCount Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03D04FCC297793B6000519EF /* Build configuration list for PBXProject "MuscleCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D0501B297793B9000519EF /* Debug */,
+				03D0501C297793B9000519EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03D0501D297793B9000519EF /* Build configuration list for PBXNativeTarget "MuscleCount Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D0501E297793B9000519EF /* Debug */,
+				03D0501F297793B9000519EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03D05021297793B9000519EF /* Build configuration list for PBXNativeTarget "MuscleCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D05022297793B9000519EF /* Debug */,
+				03D05023297793B9000519EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03D05024297793B9000519EF /* Build configuration list for PBXNativeTarget "MuscleCountTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D05025297793B9000519EF /* Debug */,
+				03D05026297793B9000519EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03D05027297793B9000519EF /* Build configuration list for PBXNativeTarget "MuscleCountUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D05028297793B9000519EF /* Debug */,
+				03D05029297793B9000519EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03D0502A297793B9000519EF /* Build configuration list for PBXNativeTarget "MuscleCount Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D0502B297793B9000519EF /* Debug */,
+				03D0502C297793B9000519EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03D0502D297793B9000519EF /* Build configuration list for PBXNativeTarget "MuscleCount Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D0502E297793B9000519EF /* Debug */,
+				03D0502F297793B9000519EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03D04FC9297793B6000519EF /* Project object */;
+}
