@@ -6,13 +6,35 @@
 //
 
 import SwiftUI
+import CoreMotion
 
 struct ContentView: View {
     @State var RepCount: Int = 0
     @State var SetCount: Int = 0
+    @State var graavity: Double = Double()
+    
+    var motionManager = CMMotionManager()
+    @State var timer: Timer = Timer()
+    func startMotion() {
+        if motionManager.isDeviceMotionAvailable {
+            self.motionManager.deviceMotionUpdateInterval = 0.5
+            self.motionManager.showsDeviceMovementDisplay = true
+            self.motionManager.startDeviceMotionUpdates(using: .xMagneticNorthZVertical)
+            
+            self.timer = Timer(fire: Date(), interval: 0.2, repeats: true, block: { (timer) in
+                if let data = self.motionManager.deviceMotion {
+                    let gravity = data.gravity
+                    
+                    print(gravity)
+                }
+                
+            })
+        }
+    }
     
     var body: some View {
         GeometryReader{ geometry in
+            
             
             VStack {
                 Image(systemName: "dumbbell.fill")
@@ -39,6 +61,8 @@ struct ContentView: View {
             }
             .frame(width: geometry.size.width, height: geometry.size.height)
             //.background(.red)
+            .onAppear(){
+            }
         }
     }
 }
